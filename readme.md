@@ -11,13 +11,16 @@ The elventy-config file ".eleventy.js" relies in most parts on [Greg Wolanski's 
 Im using the eleventy-canary-build for Eleventy's Version 2. Because of the newly built Development-Server. 
 (I changed the "domdiff:" to false - otherwise tailwindcss-classes would not properly reload after I changed them.)
 
-To start development: `npm run dev`
+0. copy this Repo (for example with) `git clone https://github.com/richardguenther/eleventy-plain-starter-tea.git`
 
-To build minified Files: `npm run build`
+1. Install all Dependencies: `npm install`
 
-(css minify with "tailwindcss", html minify with "html-minifyer", js minify with "esbuild")
+2. To start development: `npm run dev`
 
-To copy this Repo with `git clone https://github.com/richardguenther/eleventy-plain-starter-tea.git`
+3. To build minified Files: `npm run build`
+    (css minify with "tailwindcss", html minify with "html-minifyer", js minify with "esbuild")
+
+
 
 ---
 
