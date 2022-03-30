@@ -18,7 +18,7 @@ Im using the eleventy-canary-build for Eleventy's Version 2. Because of the newl
 2. To start development: `npm run dev`
 
 3. To build minified Files: `npm run build`
-    (css minify with "tailwindcss", html minify with "html-minifyer", js minify with "esbuild")
+    (css minify with "tailwindcss", html minify with "html-minifier", js minify with "esbuild")
 
 
 
