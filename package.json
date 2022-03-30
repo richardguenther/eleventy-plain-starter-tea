@@ -1,0 +1,29 @@
+{
+  "name": "eleventy-tailwind-tutorial-thirus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve --quiet --incremental & npx tailwindcss -i ./tailwind.css -o ./_site/css/styles.css --watch",
+    "build": "NODE_ENV=production eleventy && npx tailwindcss -i ./tailwind.css -o ./_site/css/styles.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardguenther/eleventy-tailwind-tutorial-thirus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardguenther/eleventy-tailwind-tutorial-thirus/issues"
+  },
+  "homepage": "https://github.com/richardguenther/eleventy-tailwind-tutorial-thirus#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.4",
+    "esbuild": "^0.14.29",
+    "html-minifier": "^4.0.0",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "alpinejs": "^3.9.5"
+  }
+}
