@@ -25,3 +25,4 @@ Im using the eleventy-canary-build for Eleventy's Version 2. Because of the newl
 ---
 
 I've used gitpod.io as a Development-Environment. Some VS-Code-Extensions have to be installed manually. To Nunjucks-Extensions are in de .vscode_extensions folder.
+I've used gitpods [local companion app](https://www.gitpod.io/blog/local-app) to emulate localhost on my computer. Donwnload the file for your Operating System, start the terminal in the folder where the file was downloaded to and start it with `.\gitpod-local-companion-windows.exe` or whichever version you downloaded.
