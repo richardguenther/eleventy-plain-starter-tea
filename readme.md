@@ -11,7 +11,7 @@ The elventy-config file ".eleventy.js" relies in most parts on [Greg Wolanski's 
 Im using the eleventy-canary-build for Eleventy's Version 2. Because of the newly built Development-Server. 
 (I changed the "domdiff:" to false - otherwise tailwindcss-classes would not properly reload after I changed them.)
 
-0. copy this Repo (for example with) `git clone https://github.com/richardguenther/eleventy-plain-starter-tea.git`
+0. copy this Repo (for example with) `git clone https://github.com/richardguenther/eleventy-plain-starter-tea.git` (and change into the new directory - maybe remove the .git folder with `rm -rf .git`)
 
 1. Install all Dependencies: `npm install`
 
