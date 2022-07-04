@@ -4,20 +4,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/styles.css?v={% version %}">
-        <script type="module" src="/js/app.js?v={% version %}" defer></script>
-        <script type="module" src="/js/alpine.js?v={% version %}" defer></script>
+        <link rel="stylesheet" href="/static/styles.min.css?v={% version %}">
+        <link rel="stylesheet" href="/static/tailwind.css?v={% version %}">
+        <script type="module" src="/static/app.min.js?v={% version %}" defer></script>
         <title>Index</title>
     </head>
     <body>
-        <h1 class="text-pink-300 text-6xl">Index-Page</h1>
+        <h1 class="text-6xl text-orange-500">Index-Page</h1>
         <a href="/about">Link to about page </a>
-        <p class="text-blue-400">something, something</p>
+        <p class="text-blue-400">something, something, other - no, no</p>
 
-<div x-data="{ count: 0 }">
-    <button x-on:click="count++">Click here to count up</button>
- 
-    <span class="text-xl font-bold text-red-400" x-text="count"></span>
-</div>
+        {# Kommentar packe ich mal rein #}
+
+        <div x-data="{ count: 0 }">
+            <button x-on:click="count++">Click here to count up</button>
+
+            <span class="text-xl font-bold text-red-400" x-text="count"></span>
+        </div>
     </body>
 </html>
